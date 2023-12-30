@@ -1,0 +1,60 @@
+@import "../../utils/vars";
+
+.DeliciousContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  h1 {
+    font-size: 60px;
+  }
+}
+
+.DeliciousContent {
+  p {
+    color: #2a2521;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 39px;
+  }
+  button {
+    border-radius: 60px;
+    background-color: $button-bg-color;
+    border: none;
+    outline: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: $white-color;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: -10px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(
+        1.05
+      ); 
+    }
+
+    /* Эффект при нажатии */
+    &:active {
+      transform: scale(
+        0.95
+      );
+    }
+  }
+}
+
+.DeliciousText {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 41px;
+
+  h2 {
+    font-size: 50px;
+  }
+}

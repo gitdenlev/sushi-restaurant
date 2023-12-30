@@ -1,0 +1,32 @@
+@import '../../utils/mixins';
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 500;
+
+.LogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    margin-left: 16px;
+  }
+}
+
+
+
+}
+
+  nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 99px;
+}

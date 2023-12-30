@@ -1,0 +1,12 @@
+// Animate HTML elements
+@import 'animate.css';
+// Vars
+@import "./utils/vars";
+@import "./utils/mixins";
+@import "./utils/reset";    
+body {
+    height: 100vh;
+    padding: 40px;
+    scroll-behavior: smooth;
+    color: $text-color;
+}
